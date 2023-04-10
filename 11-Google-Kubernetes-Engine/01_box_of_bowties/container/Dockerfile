@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:centos8
 LABEL vendor="Bowtie Inc"
 RUN yum install -y httpd
 COPY index.html /var/www/html/
